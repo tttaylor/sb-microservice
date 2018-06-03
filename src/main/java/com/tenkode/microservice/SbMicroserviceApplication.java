@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SbMicroserviceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Just printing something here.");
 		SpringApplication.run(SbMicroserviceApplication.class, args);
 	}
 }
